@@ -27,7 +27,7 @@ This will install the packages from the requirements.txt for this project.
 '''
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'SEKRET-KEY'
+app.config['SECRET_KEY'] = 'SECRET-KEY'
 ckeditor = CKEditor(app)
 Bootstrap5(app)
 
